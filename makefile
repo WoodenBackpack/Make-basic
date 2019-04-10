@@ -4,3 +4,6 @@ all:
 clean:
 	cd common && $(MAKE) clean
 	cd app && $(MAKE) clean
+	cd test && $(MAKE) clean
+tests:
+	cd test && $(MAKE) tests

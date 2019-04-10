@@ -6,4 +6,4 @@ TARGET = libcommon.so
 common:
 	$(COMPILER) $(CFLAGS) $(SRC) -o $(TARGET) $(LDFLAGS)
 clean:
-	rm $(TARGET)
+	if [ -e $(TARGET)]; then rm $(TARGET); fi

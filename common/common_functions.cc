@@ -1,6 +1,6 @@
 #include "common_functions.hh"
 
-namespace common{
+namespace common {
 
 void StdOutHandler::redirectStdOutToFile() {
     fileStream = new std::ofstream("out.txt");
